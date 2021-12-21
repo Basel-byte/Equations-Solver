@@ -1,0 +1,31 @@
+#home {
+  border-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 280px;
+  margin: auto;
+  color: darkblue;
+  background-color: grey;
+  font-family: "Californian FB";
+  position: relative;
+}
+
+#title1{
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#title2 {
+  font-size: 35px;
+}
+
+#methods {
+  font-size: 30px;
+}
+
+.option:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.3s ease-in-out
+}
+
