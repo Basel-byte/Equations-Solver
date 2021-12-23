@@ -186,7 +186,9 @@ export class IterativeMethodsComponent implements OnInit {
         gaussSiedelResults.push(intialGuess)
       }
     } else {
+      let count = 0
       while (relativeError >= eTolerance) {
+        count++;
         console.log(intialGuess)
         relativeError = 0
         tempArray = Array.from(intialGuess)
@@ -205,6 +207,9 @@ export class IterativeMethodsComponent implements OnInit {
         }
         intialGuess = Array.from(tempArray)
         gaussSiedelResults.push(intialGuess)
+        if (count == 20) {
+          break;
+        }
       }
 
     }
