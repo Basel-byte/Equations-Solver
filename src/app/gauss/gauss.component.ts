@@ -234,10 +234,3 @@ export class GaussComponent implements OnInit {
 
 
 }
-/*
-4x0+6x1+2x2-2x3=8
-2x0+5x2-2x3=4
--4x0-3x1-5x2+4x3=1
-8x0+18x1-2x2+3x3=40
-*/
-
