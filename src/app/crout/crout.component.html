@@ -1,10 +1,9 @@
 <div id="crout">
   <div id="selectors">
     <input type="text" placeholder="precision" id="precision" title="precision" (keyup)="precisionSelector($event)">
-    <input type="button" value="Precision" id="subPrecision" title="submit precision">
     <input type="text" placeholder="Number of Equation" id="noEqn" title="no. of Equations" (keyup)="numberEqnSelector($event)">
     <input type="button" value="Number Eqn" id="subNumber" title="submit number" (click)="getTextEqn()">
-    <input id="solve" type="button" title="Solve" value="Solve" (click)="solve()">
+    <input id="solveCrout" type="button" title="Solve" value="Solve" (click)="solve()">
     <div id="move">
       <div class="texts" *ngFor="let i of nullArr; let j=index">
         <input id="eqn" placeholder="equation {{j+1}}" type="text" value="{{i}}" (keyup)="setEqn($event,j)">

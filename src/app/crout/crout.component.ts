@@ -71,6 +71,12 @@ export class CroutComponent implements OnInit{
   }
 
   solve(){
+    let s = document.getElementById("solveCrout");
+    s!.style.visibility="hidden";
+    let m = document.getElementById("main");
+    m!.style.visibility="visible";
+    let no = document.getElementById("subNumber");
+    no!.style.visibility="hidden";
     this.u=[];
     this.l=[];
     this.y=[];

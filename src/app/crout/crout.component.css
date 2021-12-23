@@ -7,6 +7,7 @@
   width:40%;
   border: solid;
   margin-left: 35%;
+  visibility: hidden;
 }
 
 #title{
@@ -63,7 +64,7 @@ input[type="button"]{
   cursor: pointer;
 }
 
-#solve{
+#solveCrout{
   position: absolute;
   top:50px;
   left:350px;
@@ -85,11 +86,11 @@ input[type="button"]{
 #noEqn{
   position: absolute;
   top:50px;
-  left:8px;
+  left:6px;
 }
 
 #subNumber{
   position: absolute;
   top:50px;
-  left:185px;
+  left:180px;
 }
